@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/lobipanel.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/ol.css" type="text/css"/>
+    <script src="js/jquery.1.11.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lobipanel.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/ol.js"type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #map{
+            margin: 0;
+            width: 100%;
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div class="panel panel-default"  style="width: 1136px;height: 740px; float:left;margin: 10px 0 0 10px; position: relative;">
+        <!--<div class="panel-heading">-->
+            <!--<div class="panel-title">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div id="map" class="panel-body" style="padding: 0px;">
+        </div>
+    </div>
+
+    <div class="panel panel-default"  style="width: 720px;height: 240px; float:left;margin: 10px 0 0 10px; position: relative;">
+        <!--<div class="panel-heading">-->
+            <!--<div class="panel-title">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="panel-body">
+            第三方监测
+            <div style="margin-top: 10px;">
+                <ul>
+                    <li><p>本日测点：123个</p></li>
+                    <li><p>超控测点：50个</p></li>
+                    <li><p>报警测点：23个</p></li>
+                    <li><p>支护结构测点：60个</p></li>
+                    <li><p>周边岩土体测点：40个</p></li>
+                    <li><p>周边环境测点：23个</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default"  style="width: 720px;height: 240px; float:left; margin: 10px 0 0 10px; position: relative;">
+        <!--<div class="panel-heading">-->
+            <!--<div class="panel-title">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="panel-body">
+            施工监测
+            <div style="margin-top: 10px;">
+                <ul>
+                    <li><p>本日测点：123个</p></li>
+                    <li><p>超控测点：50个</p></li>
+                    <li><p>报警测点：23个</p></li>
+                    <li><p>支护结构测点：60个</p></li>
+                    <li><p>周边岩土体测点：40个</p></li>
+                    <li><p>周边环境测点：23个</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default"  style="width: 720px;height: 240px; float:left; margin: 10px 0 0 10px; position: relative;">
+        <!--<div class="panel-heading">-->
+            <!--<div class="panel-title">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="panel-body">
+            周边环境状态
+            <div style="margin-top: 10px;">
+                <ul>
+                    <li><p>地下水位：123个</p></li>
+                    <li><p>构建筑物：50个</p></li>
+                    <li><p>周边管线：23个</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%;clear: both;">
+        <div class="panel panel-default"  style="width: 569px;height: 260px; float:left; margin: 10px 0 0 10px; position: relative;">
+            <!--<div class="panel-heading">-->
+                <!--<div class="panel-title">-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="panel-body">
+                监测预警信息
+                <div style="margin-top: 10px;">
+                    <ul>
+                        <li>
+                            <p>2017.12.08 梧桐山站 地表沉降 超控测点8个</p>
+                        </li>
+                        <li>
+                            <p>2017.12.08 梧桐山站 地表沉降 超控测点8个</p>
+                        </li>
+                        <li>
+                            <p>2017.12.08 梧桐山站 地表沉降 超控测点8个</p>
+                        </li>
+                        <li>
+                            <p>2017.12.08 梧桐山站 地表沉降 超控测点8个</p>
+                        </li>
+                        <li>
+                            <p>2017.12.08 梧桐山站 地表沉降 超控测点8个</p>
+                        </li>
+                        <li>
+                            <p>2017.12.08 梧桐山站 地表沉降 超控测点8个</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default"  style="width: 559px;height: 260px; float:left; margin: 10px 0 0 10px; position: relative;">
+            <!--<div class="panel-heading">-->
+                <!--<div class="panel-title">-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="panel-body">
+                重大危险源
+                <div style="margin-top: 10px;">
+                    <ul>
+                        <li><p>危险源类型I：123个</p></li>
+                        <li><p>危险源类型II：50个</p></li>
+                        <li><p>危险源类型III：23个</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default"  style="width: 720px;height: 260px; float:left; margin: 10px 0 0 10px; position: relative;">
+            <!--<div class="panel-heading">-->
+                <!--<div class="panel-title">-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="panel-body">
+                InSAR专题
+                <div style="margin-top: 10px;">
+                    <ul>
+                        <li><p>影响区内建筑：<span style="font-size: 16px;font-color:blue;">315</span>座</p></li>
+                        <li><p>跨街人行桥梁：<span style="font-size: 16px;font-color:blue;">50</span>座</p></li>
+                        <li><p>公路、道路：<span style="font-size: 16px;font-color:blue;">285</span>条</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<script type="text/javascript">
+    $(function(){
+        $('.panel').lobiPanel({
+            unpin: false,
+            reload: false,
+            close: false,
+            editTitle: false,
+            minimize:false
+        });
+    });
+    // Open Street Map 地图层
+    var openStreetMapLayer = new ol.layer.Tile({
+        source: new ol.source.XYZ({
+            url: 'http://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+        })
+    });
+    // 地图设置中心，设置到成都，在本地离线地图 offlineMapTiles刚好有一张zoom为4的成都瓦片
+    var center = ol.proj.transform([114.065106,22.548982], 'EPSG:4326', 'EPSG:3857');
+    var map = new ol.Map({
+        // 设置地图图层
+        layers: [
+            openStreetMapLayer
+        ],
+        // 设置显示地图的视图
+        view: new ol.View({
+            // 设置成都为地图中心
+            center: center,
+            zoom: 10
+        }),
+        // 让id为map的div作为地图的容器
+        target: 'map'
+    });
+</script>
+
+</body>
+</html>
